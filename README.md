@@ -1,10 +1,9 @@
 # html5-css3
-Curso de HTML5 e CSS3 com Gustavo Guanabara.
+Curso básico de HTML5 e CSS3 com Gustavo Guanabara.
 
 Estou aprendendo a criar sites e a gerenciar meus repositórios.
 
 <h2>Módulo 01</h2>
-<br>
 <a href="https://liliangeovana.github.io/html5-css3/exercicios/mod1/Ex001/">Executar o exercício 01</a><br>
 <a href="https://liliangeovana.github.io/html5-css3/exercicios/mod1/Ex002/">Executar o exercício 02</a><br>
 <a href="https://liliangeovana.github.io/html5-css3/exercicios/mod1/Ex003/">Executar o exercício 03</a><br>

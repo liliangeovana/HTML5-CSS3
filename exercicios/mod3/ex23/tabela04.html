@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabela</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 400px;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        col.nome{
+            background-color: aqua;
+        }
+
+        col.grupo{
+            background-color: yellow;
+        }
+
+        col.sexo{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabela</h1>
+
+    <table>
+        <colgroup>
+            <col class="nome">
+            <col class="grupo" span="2">
+            <col class="sexo">
+        </colgroup>
+
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Cidade</th>
+            <th scope="col">Sexo</th>
+        </tr>
+
+        <tr>
+            <td>Fulano 1</td>
+            <td>Idade x</td>
+            <td>Cidade 1</td>
+            <td>Sexo x</td>
+        </tr>
+
+        <tr>
+            <td>Fulano 2</td>
+            <td>Idade x</td>
+            <td>Cidade 2</td>
+            <td>Sexo x</td>
+        </tr>
+
+        <tr>
+            <td>Fulano 3</td>
+            <td>Idade x</td>
+            <td>Cidade 3</td>
+            <td>Sexo x</td>
+        </tr>
+
+        <tr>
+            <td>Fulano 4</td>
+            <td>Idade x</td>
+            <td>Cidade 4</td>
+            <td>Sexo x</td>
+        </tr>
+    </table>
+</body>
+</html>
